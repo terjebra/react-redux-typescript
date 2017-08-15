@@ -30,11 +30,6 @@ const plugins = [
 
 const rules = [
   {
-    test: /\.ts$/,
-    enforce: "pre",
-    loader: "tslint-loader"
-  },
-  {
     test: /\.ejs$/,
     loader: "ejs-loader",
     query: {
